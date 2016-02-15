@@ -1,15 +1,5 @@
 -
   browser: >
-    Microsoft Edge
-  summary: >
-    Edge renders an SVG `<img>` with `max-width:100%;` too small
-  upstream_bug: >
-    IE#2274240
-  origin: >
-    Bootstrap#16915
-
--
-  browser: >
     Internet Explorer 11 & Microsoft Edge
   summary: >
     Hovered element still remains in `:hover` state after scrolling away.
@@ -77,26 +67,6 @@
     Mozilla#1023761
   origin: >
     Bootstrap#13453
-
--
-  browser: >
-    Firefox
-  summary: >
-    `max-width: 100%;` doesn't work inside tables.
-  upstream_bug: >
-    Mozilla#975632
-  origin: >
-    Bootstrap#10690
-
--
-  browser: >
-    Firefox
-  summary: >
-    Button elements with `width: 100%` become cropped in long tables.
-  upstream_bug: >
-    Mozilla#1060131
-  origin: >
-    Bootstrap#14320
 
 -
   browser: >
@@ -349,6 +319,16 @@
     WebKit#153224, Safari#24235301
   origin: >
     Bootstrap#17497
+
+-
+  browser: >
+    Safari (iOS)
+  summary: >
+    `<body>` with `overflow:hidden` CSS is scrollable on iOS
+  upstream_bug: >
+    WebKit#153852
+  origin: >
+    Bootstrap#14839
 
 -
   browser: >
